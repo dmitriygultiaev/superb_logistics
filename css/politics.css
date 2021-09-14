@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.wrap {
+    padding: 0px 15px;
+    max-width: 1188px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4F84EB;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+p {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #22262D;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+@media (max-width: 499px) {
+    
+    h2 {
+        font-size: 21px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}

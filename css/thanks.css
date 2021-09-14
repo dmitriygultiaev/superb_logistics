@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+.thanks {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.thanks_img {
+    width: 15%;
+    margin: 0px auto;
+    height: 110px;
+    background:url(../img/check.svg) center center no-repeat;
+    background-size:contain;
+}
+
+.thanks_head {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1A1A1D;
+}
+
+.thanks_desc {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    color: #1A1A1D;
+}
+
+@media (max-width:750px) {
+    .thanks_img {
+        width: 30%;
+    }
+}
+
+@media (max-width:450px) {
+    .thanks_img {
+        width: 50%;
+    }
+
+    .thanks_head {
+        font-size: 28px;
+    }
+    
+    .thanks_desc {
+        font-size: 18px;
+    }
+}
